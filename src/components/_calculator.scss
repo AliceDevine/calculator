@@ -1,0 +1,37 @@
+.Calculator {
+    background-color:grey;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-top:20px;
+}
+body {
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.row {
+    padding: 5px 10px;
+}
+
+.col {
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.num {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: auto auto auto;
+}
+.oper {
+    display: grid;
+    grid-gap: 5px;
+}
+.footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}

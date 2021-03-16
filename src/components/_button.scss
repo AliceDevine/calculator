@@ -1,0 +1,29 @@
+.Button {
+    background: #cad2c5;
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    height: 60px;
+    width: 60px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+}
+
+.Button[data-size="2"] {
+    width: 130px;
+}
+
+.Button[data-value="null"] {
+    background:grey;
+    border: 1px solid grey;
+    pointer-events: none;
+}
+
+.Button:hover {
+    background: #d7ddd3;
+    cursor: default;
+}
